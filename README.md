@@ -12,6 +12,24 @@ This work heavily based on two works:[GitHub - maudzung/SFA3D: Super Fast and Ac
 
 Refer to Carla-dataset-generator https://github.com/SekiroRong/Carla_dataset_generator
 
+## Installation
+
+Run
+
+```
+pip install -r requirements.txt
+```
+
+separately in PointPainting and SFA3D folder。
+
+## PointPainting Part
+
+### Download the checkpoint
+
+[Download from Drive](https://drive.google.com/file/d/10-WxqSmyFKW72_1D-2vwu7BzUFlCOwgb/view?usp=sharing) Place it in "BiSeNetv2/checkpoints"  
+**Important Note** The file you will download will have the name "BiseNetv2_150.pth.tar", 
+don't unzip it .. just rename it to be "BiseNetv2_150.pth"
+
 ## Contact
 
 If you think this work is useful, please give me a star!  
