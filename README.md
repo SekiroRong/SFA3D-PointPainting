@@ -4,7 +4,7 @@ A Panoramic Awareness Network inspired by PointPainting and SFA3D.
 
 This work heavily based on two works:[GitHub - maudzung/SFA3D: Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds (The PyTorch implementation)](https://github.com/maudzung/SFA3D) and [GitHub - AmrElsersy/PointPainting: Real Time Semantic Segmentation for both LIDAR &amp; Camera using BiseNetv2 &amp; PointPainting Fusion in Pytorch](https://github.com/AmrElsersy/PointPainting)
 
-![output.gif](../asset/output.gif)
+![output.gif](output.gif)
 
 
 
