@@ -30,6 +30,42 @@ separately in PointPainting and SFA3D folder。
 **Important Note** The file you will download will have the name "BiseNetv2_150.pth.tar", 
 don't unzip it .. just rename it to be "BiseNetv2_150.pth"
 
+## SFA3D Part
+
+### Visualize the dataset
+
+To visualize 3D point clouds with 3D boxes, let's execute:
+
+```shell
+cd sfa/data_process/
+python kitti_dataset.py
+```
+
+### Inference
+
+The pre-trained model was pushed to this repo.
+
+```
+python test.py
+```
+
+### Training
+
+Only support single GPU for now.
+
+```shell
+python train.py
+```
+
+## SFA3D-PointPainting Part
+
+### Joint-Inference
+
+```shell
+cd SFA3D/sfa/
+python joint_Inference.py
+```
+
 ## Contact
 
 If you think this work is useful, please give me a star!  
@@ -41,13 +77,9 @@ Thank you!
 
 [1] CenterNet: [Objects as Points paper](https://arxiv.org/abs/1904.07850), [PyTorch Implementation](https://github.com/xingyizhou/CenterNet)  
 [2] RTM3D: [PyTorch Implementation](https://github.com/maudzung/RTM3D)  
-[3] Libra_R-CNN: [PyTorch Implementation](https://github.com/OceanPang/Libra_R-CNN)
+[3] YOLOP：[YOLOP: You Only Look Once for Panopitic Driving Perception.）](https://github.com/hustvl/YOLOP)
 
-*The YOLO-based models with the same BEV maps input:*  
-[4] Complex-YOLO: [v4](https://github.com/maudzung/Complex-YOLOv4-Pytorch), [v3](https://github.com/ghimiredhikura/Complex-YOLOv3), [v2](https://github.com/AI-liu/Complex-YOLO)
-
-*3D LiDAR Point pre-processing:*  
-[5] VoxelNet: [PyTorch Implementation](https://github.com/skyhehe123/VoxelNet-pytorch)
+[4] PointPainting: [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/abs/1911.10150), [PyTorch Implementation](https://github.com/AmrElsersy/PointPainting)
 
 ## Citation
 
