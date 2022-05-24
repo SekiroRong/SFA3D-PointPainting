@@ -30,9 +30,9 @@ separately in PointPainting and SFA3D folder。
 **Important Note** The file you will download will have the name "BiseNetv2_150.pth.tar", 
 don't unzip it .. just rename it to be "BiseNetv2_150.pth"
 
-## SFA3D Part
+## SFA3D Part
 
-### Visualize the dataset
+### Visualize the dataset
 
 To visualize 3D point clouds with 3D boxes, let's execute:
 
@@ -41,7 +41,7 @@ cd sfa/data_process/
 python kitti_dataset.py
 ```
 
-### Inference
+### Inference
 
 The pre-trained model was pushed to this repo.
 
@@ -49,7 +49,7 @@ The pre-trained model was pushed to this repo.
 python test.py
 ```
 
-### Training
+### Training
 
 Only support single GPU for now.
 
@@ -59,7 +59,7 @@ python train.py
 
 ## SFA3D-PointPainting Part
 
-### Joint-Inference
+### Joint-Inference
 
 ```shell
 cd SFA3D/sfa/
