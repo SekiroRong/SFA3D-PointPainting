@@ -77,9 +77,9 @@ Thank you!
 
 [1] CenterNet: [Objects as Points paper](https://arxiv.org/abs/1904.07850), [PyTorch Implementation](https://github.com/xingyizhou/CenterNet)  
 [2] RTM3D: [PyTorch Implementation](https://github.com/maudzung/RTM3D)  
-[3] YOLOP：[YOLOP: You Only Look Once for Panopitic Driving Perception.）](https://github.com/hustvl/YOLOP)
-[4] PointPainting: [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/abs/1911.10150), [PyTorch Implementation](https://github.com/AmrElsersy/PointPainting)
-[5] SFA3D：[GitHub - maudzung/SFA3D: Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds (The PyTorch implementation)](https://github.com/maudzung/SFA3D)
+[3] YOLOP：[YOLOP: You Only Look Once for Panopitic Driving Perception.）](https://github.com/hustvl/YOLOP)   
+[4] PointPainting: [PointPainting: Sequential Fusion for 3D Object Detection](https://arxiv.org/abs/1911.10150), [PyTorch Implementation](https://github.com/AmrElsersy/PointPainting)    
+[5] SFA3D：[GitHub - maudzung/SFA3D: Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds (The PyTorch implementation)](https://github.com/maudzung/SFA3D)   
 ## Citation
 
 ```bash
